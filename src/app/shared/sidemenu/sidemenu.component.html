@@ -1,0 +1,19 @@
+<h2>Lista de enlaces</h2>
+
+<hr>
+
+<ul class="list-group ">
+
+    <li class="list-group-item list-group-item-action cursorPointer" 
+        [routerLink]="[item.ruta]"
+        *ngFor="let item of templateMenu">
+        {{item.texto }}
+    </li>
+    
+    <!-- <li class="list-group-item list-group-item-action cursorPointer" routerLink="reactive/basicos">reactive basicos</li>
+    <li class="list-group-item list-group-item-action cursorPointer" routerLink="./reactive/dinamicos">reactive dinamicos</li>
+    <li class="list-group-item list-group-item-action cursorPointer" routerLink="./reactive/switches">reactive switches</li>
+    <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/basicos">template basicos</li>
+    <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/dinamicos">template dinamicos</li>
+    <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/switches">template switches</li> -->
+</ul>
