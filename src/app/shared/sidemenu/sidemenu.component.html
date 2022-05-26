@@ -1,4 +1,4 @@
-<h2>Lista de enlaces</h2>
+<h2>Tipos de formularios</h2>
 
 <hr>
 
@@ -6,8 +6,9 @@
 
     <li class="list-group-item list-group-item-action cursorPointer" 
         [routerLink]="[item.ruta]"
-        *ngFor="let item of templateMenu">
-        {{item.texto }}
+        *ngFor="let item of templateMenu"
+        routerLinkActive="active">
+        {{item.texto }} 
     </li>
     
     <!-- <li class="list-group-item list-group-item-action cursorPointer" routerLink="reactive/basicos">reactive basicos</li>

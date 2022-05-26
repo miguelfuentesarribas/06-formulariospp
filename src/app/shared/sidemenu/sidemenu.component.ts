@@ -15,28 +15,28 @@ export class SidemenuComponent {
 
   templateMenu: MenuItem[] = [
     {
-      texto: 'Basicos',
-      ruta: '.template/basicos'
+      texto: 'Template Basicos',
+      ruta: './template/basicos'
     },
     {
-      texto: 'Dinamicos',
-      ruta: '.template/dinamicos'
+      texto: 'Template Dinamicos',
+      ruta: './template/dinamicos'
     },
     {
-      texto: 'Switches',
-      ruta: '.template/switches'
+      texto: 'Template Switches',
+      ruta: './template/switches'
     },
     {
-      texto: 'Basicos',
-      ruta: '.reactive/basicos'
+      texto: 'Reactive Basicos',
+      ruta: './reactive/basicos'
     },
     {
-      texto: 'Dinamicos',
-      ruta: '.reactive/dinamicos'
+      texto: 'Reactive Dinamicos',
+      ruta: './reactive/dinamicos'
     },
     {
-      texto: 'Switches',
-      ruta: '.reactive/switches'
+      texto: 'Reactive Switches',
+      ruta: './reactive/switches'
     },
     
   ]
