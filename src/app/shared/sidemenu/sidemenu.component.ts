@@ -13,7 +13,7 @@ interface MenuItem {
 })
 export class SidemenuComponent {
 
-  templateMenu: MenuItem[] = [
+  menu: MenuItem[] = [
     {
       texto: 'Template Basicos',
       ruta: './template/basicos'
