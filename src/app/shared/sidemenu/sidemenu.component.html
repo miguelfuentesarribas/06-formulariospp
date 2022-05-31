@@ -1,5 +1,4 @@
-<h2>Tipos de formularios</h2>
-
+<h2 class="mt-3">Tipos de formularios</h2>
 <hr>
 
 <ul class="list-group ">
@@ -17,4 +16,18 @@
     <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/basicos">template basicos</li>
     <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/dinamicos">template dinamicos</li>
     <li class="list-group-item list-group-item-action cursorPointer" routerLink="./template/switches">template switches</li> -->
+</ul>
+
+<h2 class="mt-3">Validaciones</h2>
+<hr>
+
+<ul class="list-group ">
+
+    <li class="list-group-item list-group-item-action cursorPointer" 
+        [routerLink]="[item.ruta]"
+        *ngFor="let item of authMenu"
+        routerLinkActive="active">
+        {{item.texto }} 
+    </li>
+    
 </ul>
