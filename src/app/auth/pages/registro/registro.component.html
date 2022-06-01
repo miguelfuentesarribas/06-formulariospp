@@ -32,16 +32,8 @@
                             placeholder="introduzca email"
                             formControlName="email">
                     <span   class="form-text text-danger"
-                            *ngIf="emailRequired()">
-                        El correo es obligatorio
-                    </span>
-                    <span   class="form-text text-danger"
-                            *ngIf="emailFormato()">
-                        No es un correo valido
-                    </span>
-                    <span   class="form-text text-danger"
-                            *ngIf="emailTomado()">
-                        El email ya esta en uso
+                            *ngIf="isFieldValid('email')">
+                        {{ emailErrorMsg }}
                     </span>
                 </div>
             </div>
